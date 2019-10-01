@@ -17,12 +17,12 @@
         let currentCell = cellElementArray[i]
         currentCell.addEventListener('click', function(event){
             const clickedCellElement = event.target;
-            console.log("You clicked on cell number: "+clickedCellElement.id)
+            console.log("You clicked on cell number: " + clickedCellElement.id)
         });
     }
 
 
-    
+
 
 
 
